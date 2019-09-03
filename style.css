@@ -44,7 +44,7 @@ h1 {
   position: absolute;
   margin-top: -3.5%;
   background-color: rgba(255, 0, 0, 0.0);
-
+  
 }
 
 footer p {
@@ -65,6 +65,8 @@ footer p {
 p {
   padding-top: 0.5%;
   color: rgb(181, 181, 181);
+  line-height: 150%;
+  text-align: justify;
 }
 
 .hero {
