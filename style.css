@@ -48,12 +48,9 @@ h1 {
 }
 
 footer p {
-  width: 100%;
+  padding: 2%;
   color: white;
-  padding-bottom: 1.5%;
   text-align: center;
-  position: absolute;
-  margin-top: 104%;
 }
 
 .text {
@@ -65,11 +62,18 @@ footer p {
   margin-right: 35%;
   padding-left: 4%;
   padding-top: 2.5%;
-  float: left;
 }
 
 #geo-surface {
   margin-top: -18%;
+}
+
+#geo-internal-structure {
+  padding-bottom: 5%;
+}
+
+#benifits-text {
+  padding-right: 4%;
 }
 
 .geo-img {
