@@ -73,14 +73,15 @@ footer p {
 }
 
 #benifits-text {
-  margin-left: -1%;
-  width: 28%;
+  width: 25%;
   display: inline-block;
+  align-content: center;
 }
 
 #benifits-2 {
   margin-left: 33%;
   float: inherit;
+  margin-bottom: 10%
 }
 .geo-img {
   height: 20%;
