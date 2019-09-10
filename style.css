@@ -73,12 +73,14 @@ footer p {
 }
 
 #benifits-text {
-  padding-right: 4%;
-  width: 30%;
+  margin-left: -1%;
+  width: 28%;
+  display: inline-block;
 }
 
-#benifits-3 {
-  float: right;
+#benifits-2 {
+  margin-left: 33%;
+  float: inherit;
 }
 .geo-img {
   height: 20%;
