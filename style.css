@@ -72,17 +72,16 @@ footer p {
   padding-bottom: 5%;
 }
 
-#benifits-text {
-  width: 28%;
-  display: inline-block;
-  align-content: center;
-
+#benifit-summary {
 }
 
-#benifits-2 {
-  margin-left: 33%;
-  float: inherit;
-  margin-bottom: 10%
+#benifit-telescopes {
+}
+
+.flex-benifit{
+  padding-right: 5%;
+  display: flex;
+  flex-direction: row;
 }
 .geo-img {
   height: 20%;
