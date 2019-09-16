@@ -76,15 +76,19 @@ footer p {
   width: 250%;
 }
 
-#benifit-telescopes {
-}
-
 #telescope {
   width: 95%;
   height: 60%;
   padding-left: 4%;
 }
 
+#rocket {
+  width: -50px;
+}
+
+#transport-text {
+  width: 75%;
+}
 .flex-benifit{
   padding-right: 5%;
   display: flex;
@@ -96,6 +100,16 @@ footer p {
   flex-direction: column;
   padding-bottom: 5%;
 }
+.flex-transport{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-transport-text {
+  display: flex;
+  flex-direction: row;
+}
+
 .geo-img {
   height: 20%;
   width: 20%;
