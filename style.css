@@ -73,15 +73,28 @@ footer p {
 }
 
 #benifit-summary {
+  width: 250%;
 }
 
 #benifit-telescopes {
+}
+
+#telescope {
+  width: 60%;
+  height: 60%;
+  padding-left: 4%;
 }
 
 .flex-benifit{
   padding-right: 5%;
   display: flex;
   flex-direction: row;
+}
+
+.flex-telescope{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
 }
 .geo-img {
   height: 20%;
