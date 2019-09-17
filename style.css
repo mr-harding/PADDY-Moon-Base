@@ -99,8 +99,12 @@ footer p {
   flex-direction: row;
 }
 
+#base {
+  width: 90%;
+  text-align: center;
+}
 .base-text {
-  width: 78%;
+  width: 90%;
   padding-bottom: 2.5%;
 }
 
