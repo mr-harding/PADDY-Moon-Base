@@ -99,16 +99,8 @@ footer p {
   flex-direction: row;
 }
 
-.flex-base-columns{
-  display: flex;
-  flex-direction: column;
+.base-text {
   width: 55%;
-}
-
-.flex-base-img{
-  display: flex;
-  flex-direction: column;
-  width: 35%;
 }
 
 .flex-benifit{
