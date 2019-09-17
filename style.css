@@ -105,8 +105,12 @@ footer p {
 }
 
 #back-health {
-  margin-left: -3%;
-  background-color: rgba(189, 16, 16, 0.9);
+  margin-left: -4%;
+  background-color: rgba(255, 0, 0, 0.0);
+}
+
+#microgravity {
+  width: 100%;
 }
 
 .health-text {
@@ -119,6 +123,7 @@ footer p {
 .flex-column-health{
   display: flex;
   flex-direction: column;
+  width: 90%;
 }
 
 
