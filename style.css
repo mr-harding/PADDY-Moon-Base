@@ -84,8 +84,9 @@ footer p {
 
 .rocket {
   padding-left: 2%;
+  padding-right: -3%;
   padding-top: 5%;
-  width: 38%;
+  width: 41%;
 }
 
 #transport-text {
