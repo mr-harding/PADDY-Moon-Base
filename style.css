@@ -105,7 +105,8 @@ footer p {
 }
 
 #back-health {
-  padding-left: -3%;
+  margin-left: -3%;
+  background-color: rgba(189, 16, 16, 0.9);
 }
 
 .health-text {
