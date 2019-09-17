@@ -118,6 +118,17 @@ footer p {
   margin-left: -30%;
 }
 
+.flex-column-future {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.flex-column-future-row {
+  display: flex;
+  flex-direction: row;
+}
+
 .health-text {
   width: 100%;
   padding-right: 3%;
@@ -127,8 +138,8 @@ footer p {
 
 .health-img {
   padding-top: 5%;
-  width: 58%;
-  align-self: center;
+  margin-left: -29%;
+  width: 140%;
 }
 
 .flex-column-health{
