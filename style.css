@@ -92,6 +92,25 @@ footer p {
 #transport-text {
   width: 55%;
 }
+
+#flex-base-row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-base-columns{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.flex-base-img{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
 .flex-benifit{
   padding-right: 5%;
   display: flex;
