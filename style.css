@@ -103,6 +103,24 @@ footer p {
   width: 90%;
   text-align: center;
 }
+
+#back-health {
+  padding-left: -3%;
+}
+
+.health-text {
+  width: 100%;
+  padding-right: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column-health{
+  display: flex;
+  flex-direction: column;
+}
+
+
 .base-text {
   width: 90%;
   padding-bottom: 2.5%;
