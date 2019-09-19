@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 
 * {
+  /* default formating for this site, dictates font and colour, also resets margins/paddyg*/
   font-family: 'Orbitron', sans-serif;
   padding: 0;
   margin: 0;
@@ -9,10 +10,12 @@
 }
 
 h1 {
+  /* provide padding to all titles */
   padding: 3%;
 }
 
 ul {
+  /* controls nav background */
   list-style-type: none;
   text-align: right;
   margin: 0;
@@ -21,10 +24,12 @@ ul {
 }
 
 li {
+  /* makes nav items stay on the same line */
   display: inline-block;
 }
 
 li a {
+  /* controls the actual nav items */
   display: block;
   padding: 25px;
   color: rgba(0, 255, 246, 0.5);
@@ -33,11 +38,13 @@ li a {
 }
 
 li a:hover {
+  /* this is how the nav items change when hovered over */
   color: rgba(0, 255, 246, 1);
   background-color: rgba(89, 87, 87, 0.5);
 }
 
-h1 {
+.logo {
+  /* controls the logo in the top left corner */
   float: left;
   padding: 0;
   margin-left: 5%;
@@ -48,41 +55,49 @@ h1 {
 }
 
 footer p {
+  /* controls footer */
   padding: 2%;
   color: white;
   text-align: center;
 }
 
 .text {
+  /* controls text margins */
   padding-left: 5%;
   padding-top: 2.5%;
 }
 
 #geology {
+  /* contols custom padding on geo text*/
   margin-right: 35%;
   padding-left: 5%;
   padding-top: 2.5%;
 }
 
 #geo-surface {
+  /* controls position of surface image */
   margin-top: -18%;
 }
 
 #geo-internal-structure {
+  /* controls position of image */
   padding-bottom: 5%;
 }
 
 #benifit-summary {
+  /* contols width of summary text on benifits */
   width: 250%;
 }
 
 #telescope {
+  /* controls telescope image */
   width: 95%;
   height: 60%;
   padding-left: 4%;
 }
 
 .rocket {
+  /* contols rocket image */
   padding-left: 2%;
   padding-right: -3%;
   padding-top: 5%;
@@ -90,36 +105,43 @@ footer p {
 }
 
 #transport-text {
+  /* control transport text */
   width: 55%;
   margin-left: 3%;
 }
 
 #flex-base-row {
+  /* make base text go side by side */
   width: 90%;
   display: flex;
   flex-direction: row;
 }
 
 #base {
+  /* controls base text */
   width: 90%;
   text-align: center;
 }
 
 #back-health {
+  /* moves health text back so it looks nice */
   margin-left: -4%;
   background-color: rgba(255, 0, 0, 0.0);
 }
 
 #microgravity {
+  /* contols microgravity text */
   width: 80%;
 }
 
 #radiation {
+  /* controls radiation text */
   width: 140%;
   margin-left: -30%;
 }
 
 #future-img {
+  /* controls future image */
   align-self: center;
   padding-top: 5%;
   width: 95%;
@@ -127,6 +149,7 @@ footer p {
 }
 
 .flex-column-future {
+  /* makes future a column */
   display: flex;
   flex-direction: column;
   width: 45%;
@@ -135,23 +158,27 @@ footer p {
 }
 
 .flex-column-future-row {
+  /* makes future a row */
   display: flex;
   flex-direction: row;
 }
 
 .health-text {
+  /* controls health text */
   width: 100%;
   display: flex;
   flex-direction: row;
 }
 
 .health-img {
+  /* controls health image */
   padding-top: 5%;
   margin-left: -29%;
   width: 140%;
 }
 
 .flex-column-health{
+  /* makes health a column */
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -159,32 +186,38 @@ footer p {
 
 
 .base-text {
+  /* controls base text */
   width: 90%;
   padding-bottom: 2.5%;
 }
 
 .flex-benifit{
+  /* makes benifits a row */
   padding-right: 5%;
   display: flex;
   flex-direction: row;
 }
 
 .flex-telescope{
+  /* makes the telecope collumn where the telescope image/text is */
   display: flex;
   flex-direction: column;
   padding-bottom: 5%;
 }
 .flex-transport{
+  /* makes transport a row */
   display: flex;
   flex-direction: row;
 }
 
 .flex-transport-text {
+  /* makes transport text a row */
   display: flex;
   flex-direction: row;
 }
 
 .geo-img {
+  /* controls geo image */
   height: 20%;
   width: 20%;
   float: right;
@@ -192,6 +225,7 @@ footer p {
   margin-right: 8%;
 }
 p {
+  /* controls paragraphs */
   padding-top: 0.5%;
   color: rgb(181, 181, 181);
   line-height: 150%;
@@ -199,12 +233,9 @@ p {
 }
 
 .hero {
+  /* controls hero image */
   background-image: url("img/moon-hero.jpg");
   height: 100vh;
   width: 100%;
   background-size: cover;
-}
-
-#index-footer {
-  margin-bottom: -2%;
 }
